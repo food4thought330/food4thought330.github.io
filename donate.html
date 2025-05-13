@@ -4,12 +4,26 @@
 <head>
   <meta charset="utf-8">
   <meta content="width=device-width, initial-scale=1.0" name="viewport">
-  <title>Starter Page - QuickStart Bootstrap Template</title>
-  <meta name="description" content="">
+  <title>Food For Thought</title>
+  <meta name="description" content="We're a nonprofit organization committed to alleviating hunger and reducing poverty across communities in Northeast Ohio.">
   <meta name="keywords" content="">
 
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <meta name="description" content="We're a nonprofit organization committed to alleviating hunger and reducing poverty across communities in Northeast Ohio.">
+
+  <meta property="og:type" content="article" />
+  <meta property="og:title" content="Food For Thought" />
+  <meta property="og:description" content="We're a nonprofit organization committed to alleviating hunger and reducing poverty across communities in Northeast Ohio." />
+  <meta property="og:image" content="https://raw.githubusercontent.com/food4thought330/food4thought330.github.io/refs/heads/main/assets/img/logo.webp" />
+
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:domain" value="https://raw.githubusercontent.com/food4thought330/food4thought330.github.io/refs/heads/main/assets/img/logo.webp" />
+  <meta name="twitter:title" value="Food For Thought" />
+  <meta name="twitter:description" value="We're a nonprofit organization committed to alleviating hunger and reducing poverty across communities in Northeast Ohio." />
+  <meta name="twitter:image" content="https://raw.githubusercontent.com/food4thought330/food4thought330.github.io/refs/heads/main/assets/img/logo.webp" />
+
   <!-- Favicons -->
-  <link href="assets/img/favicon.png" rel="icon">
+  <link href="assets/img/favicon.ico" rel="icon">
   <link href="assets/img/apple-touch-icon.png" rel="apple-touch-icon">
 
   <!-- Fonts -->
@@ -38,44 +52,34 @@
 
 <body class="starter-page-page">
 
-  <header id="header" class="header d-flex align-items-center sticky-top">
+  <header id="header" class="header d-flex align-items-center fixed-top">
     <div class="container-fluid container-xl position-relative d-flex align-items-center">
 
       <a href="index.html" class="logo d-flex align-items-center me-auto">
-        <img src="assets/img/logo.png" alt="">
-        <h1 class="sitename">QuickStart</h1>
+        <img src="assets/img/logo.webp" alt="">
+        <h1 class="sitename">Food For Thought</h1>
       </a>
 
       <nav id="navmenu" class="navmenu">
         <ul>
-          <li><a href="index.html#hero">Home</a></li>
-          <li><a href="index.html#about">About</a></li>
-          <li><a href="index.html#features">Features</a></li>
-          <li><a href="index.html#services">Services</a></li>
-          <li><a href="index.html#pricing">Pricing</a></li>
-          <li class="dropdown"><a href="#"><span>Dropdown</span> <i class="bi bi-chevron-down toggle-dropdown"></i></a>
+          <li><a href="index.html#hero" class="active">Home</a></li>
+          <li class="dropdown"><a href="#"><span>Donate now!</span> <i class="bi bi-chevron-down toggle-dropdown"></i></a>
             <ul>
-              <li><a href="#">Dropdown 1</a></li>
-              <li class="dropdown"><a href="#"><span>Deep Dropdown</span> <i class="bi bi-chevron-down toggle-dropdown"></i></a>
-                <ul>
-                  <li><a href="#">Deep Dropdown 1</a></li>
-                  <li><a href="#">Deep Dropdown 2</a></li>
-                  <li><a href="#">Deep Dropdown 3</a></li>
-                  <li><a href="#">Deep Dropdown 4</a></li>
-                  <li><a href="#">Deep Dropdown 5</a></li>
-                </ul>
-              </li>
-              <li><a href="#">Dropdown 2</a></li>
-              <li><a href="#">Dropdown 3</a></li>
-              <li><a href="#">Dropdown 4</a></li>
+              <li><a href="https://donorbox.org/food-for-thought-771840" target="_blank">Donate Via Donorbox!</a></li>
+              <li><a href="https://opencollective.com/food-for-thought/donate?interval=oneTime&amount=5&name=&legalName=&email=" target="_blank">Donate Via OpenCollective!</a></li>
+              <li><a href="https://www.paypal.com/donate/?hosted_button_id=BMFMNLPC3A6BJ" target="_blank">Donate Via PayPal!</a></li>
+            </ul>
+          </li>
+          <li><a href="index.html#about">About</a></li>
+          <li class="dropdown"><a href="#"><span>Our Fiscal Sponsees</span> <i class="bi bi-chevron-down toggle-dropdown"></i></a>
+            <ul>
+              <li><a href="https://cantonfnb.com/" target="_blank">Canton Food Not Bombs</a></li>
             </ul>
           </li>
           <li><a href="index.html#contact">Contact</a></li>
         </ul>
         <i class="mobile-nav-toggle d-xl-none bi bi-list"></i>
       </nav>
-
-      <a class="btn-getstarted" href="index.html#about">Get Started</a>
 
     </div>
   </header>
@@ -85,11 +89,11 @@
     <!-- Page Title -->
     <div class="page-title" data-aos="fade">
       <div class="container d-lg-flex justify-content-between align-items-center">
-        <h1 class="mb-2 mb-lg-0">Starter Page</h1>
+        <h1 class="mb-2 mb-lg-0">Support Our Mission!</h1>
         <nav class="breadcrumbs">
           <ol>
             <li><a href="index.html">Home</a></li>
-            <li class="current">Starter Page</li>
+            <li class="current">Support Our Mission!</li>
           </ol>
         </nav>
       </div>
@@ -118,66 +122,30 @@
       <div class="row gy-4">
         <div class="col-lg-4 col-md-6 footer-about">
           <a href="index.html" class="logo d-flex align-items-center">
-            <span class="sitename">QuickStart</span>
+            <span class="sitename">Food For Thought</span>
           </a>
           <div class="footer-contact pt-3">
-            <p>A108 Adam Street</p>
-            <p>New York, NY 535022</p>
-            <p class="mt-3"><strong>Phone:</strong> <span>+1 5589 55488 55</span></p>
-            <p><strong>Email:</strong> <span>info@example.com</span></p>
+            <p>13155 Beloit Snodes Road</p>
+            <p>Beloit, OH 44609</p>
+            <p class="mt-3"><strong>Phone:</strong> <a href="tel:3308614515"><span>330-861-4515</span></a></p>
           </div>
-          <div class="social-links d-flex mt-4">
+          <!-- <div class="social-links d-flex mt-4">
             <a href=""><i class="bi bi-twitter-x"></i></a>
             <a href=""><i class="bi bi-facebook"></i></a>
             <a href=""><i class="bi bi-instagram"></i></a>
             <a href=""><i class="bi bi-linkedin"></i></a>
-          </div>
-        </div>
-
-        <div class="col-lg-2 col-md-3 footer-links">
-          <h4>Useful Links</h4>
-          <ul>
-            <li><a href="#">Home</a></li>
-            <li><a href="#">About us</a></li>
-            <li><a href="#">Services</a></li>
-            <li><a href="#">Terms of service</a></li>
-            <li><a href="#">Privacy policy</a></li>
-          </ul>
-        </div>
-
-        <div class="col-lg-2 col-md-3 footer-links">
-          <h4>Our Services</h4>
-          <ul>
-            <li><a href="#">Web Design</a></li>
-            <li><a href="#">Web Development</a></li>
-            <li><a href="#">Product Management</a></li>
-            <li><a href="#">Marketing</a></li>
-            <li><a href="#">Graphic Design</a></li>
-          </ul>
-        </div>
-
-        <div class="col-lg-4 col-md-12 footer-newsletter">
-          <h4>Our Newsletter</h4>
-          <p>Subscribe to our newsletter and receive the latest news about our products and services!</p>
-          <form action="forms/newsletter.php" method="post" class="php-email-form">
-            <div class="newsletter-form"><input type="email" name="email"><input type="submit" value="Subscribe"></div>
-            <div class="loading">Loading</div>
-            <div class="error-message"></div>
-            <div class="sent-message">Your subscription request has been sent. Thank you!</div>
-          </form>
+          </div> -->
         </div>
 
       </div>
     </div>
 
     <div class="container copyright text-center mt-4">
-      <p>© <span>Copyright</span> <strong class="px-1 sitename">QuickStart</strong><span>All Rights Reserved</span></p>
+      <p>© <span>Copyright 2025</span> <strong class="px-1 sitename">Food For Thought</strong><span>All Rights Reserved</span></p>
       <div class="credits">
-        <!-- All the links in the footer should remain intact. -->
-        <!-- You can delete the links only if you've purchased the pro version. -->
-        <!-- Licensing information: https://bootstrapmade.com/license/ -->
-        <!-- Purchase the pro version with working PHP/AJAX contact form: [buy-url] -->
-        Designed by <a href="https://bootstrapmade.com/">BootstrapMade</a>
+        Designed by <a href="https://alexjyong.dev/">Alex Yong</a>
+        Original Template QuickStart by <a href="https://bootstrapmade.com/quickstart-bootstrap-startup-website-template/">BootstrapMade</a>
+        See website code repository <a href="https://github.com/food4thought330/food4thought330.github.io" target="_blank">here</a>
       </div>
     </div>
 
