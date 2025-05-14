@@ -70,12 +70,16 @@
 .donate-list a {
   text-decoration: none;
   color: #b71c1c;
+  font-weight: 500;
 }
 
 .donate-list a:hover {
   color: #d32f2f;
   text-decoration: underline;
 }
+
+
+
 body {
   color: var(--default-color);
   background-color: var(--background-color);
