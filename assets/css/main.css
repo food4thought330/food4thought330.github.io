@@ -67,13 +67,13 @@
   font-weight: 500;
 }
 
-.donate-list a {
+.donate-list a:not(.btn) {
   text-decoration: none;
   color: #b71c1c;
   font-weight: 500;
 }
 
-.donate-list a:hover {
+.donate-list a:not(.btn):hover {
   color: #d32f2f;
   text-decoration: underline;
 }
